@@ -1,0 +1,21 @@
+{
+  "name": "content-handler-quick-start",
+  "version": "1.0.0",
+  "description": "Create your own content-handler based project to build your app/site in seconds!",
+  "repository": "https://github.com/Lcfvs/content-handler-quick-start",
+  "main": "./assets/dev/index.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack-cli --mode production ./assets/js/dev/index.js --output ./assets/js/dist/app.min.js",
+    "dev": "node_modules/.bin/webpack-cli --mode development ./assets/js/dev/index.js --output ./assets/js/dist/app.min.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lcf.vs <michael.rouges@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  },
+  "dependencies": {
+    "content-handler": "^1.1.0"
+  }
+}

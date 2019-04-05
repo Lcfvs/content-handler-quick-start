@@ -21,7 +21,7 @@ Create your own [content-handler](https://github.com/Lcfvs/content-handler) base
   project-dir=C:\wamp\www\project-name
   git clone https://github.com/Lcfvs/content-handler-quick-start.git %project-dir%
   cd %project-dir%
-  npm install -D
+  npm i -D
   npm run build
   ```
 * Open your browser on your project index [http://localhost/project-name](http://localhost/project-name)
@@ -34,8 +34,8 @@ Create a `./assets/js/dev/test.js`
 ```js
 import ContentHandler from 'content-handler'
 
-function changeColor (event) {
-  event.target.querySelector('h1').style.backgroundColor = '#ccc'
+function changeColor () {
+  this.querySelector('h1').style.backgroundColor = '#ccc'
 }
 
 // create a listener to be applied on each element matching the `main.test` selector

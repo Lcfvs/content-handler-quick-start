@@ -1,6 +1,6 @@
 {
   "name": "content-handler-quick-start",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create your own content-handler based project to build your app/site in seconds!",
   "repository": "https://github.com/Lcfvs/content-handler-quick-start",
   "main": "./assets/dev/index.js",

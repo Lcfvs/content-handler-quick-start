@@ -16,4 +16,4 @@ ContentHandler
     mode.sameOrigin,
     redirect.follow,
     referrer.client
-]))
+  ]))
